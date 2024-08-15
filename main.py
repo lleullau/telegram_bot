@@ -4,6 +4,8 @@ import telebot
 from auth_data import token, weather_api_token
 import datetime
 
+#add comment
+
 def telegram_bot():
     bot = telebot.TeleBot(token)
     user_states = {}
